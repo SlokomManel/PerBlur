@@ -8,7 +8,7 @@ Blu(So)me is an extension of:
   * *BlurMe* (published in RecSys'2012) [paper](https://ece.northeastern.edu/fac-ece/ioannidis/static/pdf/2012/blurme.pdf).
   
 Figure below shows the overall process of gender obfuscation and the evaluation that is carried out to assess whether our goals are met ![GitHub Logo](/figures/Diagram.pdf).
-
+![Alt Text](url)
 
 # Python package to install:
 * For fancyimpute package we need scikit_learn==0.21.0
