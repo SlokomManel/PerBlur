@@ -10,6 +10,11 @@ Blu(So)me is an extension of:
 Figure below shows the overall process of gender obfuscation and the evaluation that is carried out to assess whether our goals are met ![(/figures/Diagram.pdf).
 ![](url)
 
+<p align="center">
+  <img src="/figures/Diagram.pdf" width="350" title="hover text">
+  <img src="/figures/Diagram.pdf" width="350" alt="accessibility text">
+</p>
+
 # Python package to install:
 * For fancyimpute package we need scikit_learn==0.21.0
 * Numpy
