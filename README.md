@@ -1,4 +1,4 @@
-# Blur-So-me
+# PerBlur
 ## Bringing Gender Obfuscation in the User-Item Matrix to Top-N Recommendation
 
 This repository releases the Python implementation of "Blur(So)me" in our paper "*Blur(So)me: Bringing Gender Obfuscation in the User-Item Matrix to Top-N Recommendation*": [paper](http://google.com).
