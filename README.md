@@ -1,5 +1,4 @@
-# PerBlur
-## Bringing Gender Obfuscation in the User-Item Matrix to Top-N Recommendation
+## Towards User-Oriented Privacy for Recommender System Data: A Personalization-based Approach to Gender Obfuscation for User Profiles
 
 This repository releases the Python implementation of "PerBlur" in our paper "*Towards User-Oriented Privacy for Recommender System Data: A Personalization-based Approach to Gender Obfuscation for User Profiles*": [paper](http://google.com).
 PerBlur stands for Personalized Blurring. 
