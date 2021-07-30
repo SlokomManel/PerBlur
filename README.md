@@ -8,7 +8,7 @@ PerBlur is an amelioration of:
   
  
 Figure below shows the overall process of gender obfuscation and the evaluation that is carried out to assess whether our goals are met 
-![Diagram](diagram_PerBlur.jpg)
+![Diagram](diagram_PerBlur.pdf)
 
 
 	
