@@ -18,7 +18,7 @@ Second, as indicated by Evaluation of the Extent to Which Gender Information is 
 
 
 
-# Python package to install:
+# Python packages to install:
 * For fancyimpute package we need scikit_learn==0.21.0
 * Numpy
 * Pandas
