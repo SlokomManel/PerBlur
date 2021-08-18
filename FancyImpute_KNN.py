@@ -1,3 +1,8 @@
+"""
+This function will help in the creation of the personalized list via the generation of confidence score + imputed matrix
+you need to go to KNN-knn_impute_few_observed. I uploaded few_observed_entries.py file with the needed added line codes 
+that you need to adapt to your few_observed_entries.py file 
+"""
 import numpy as np
 import pandas as pd
 from fancyimpute import KNN, NuclearNormMinimization, SoftImpute, BiScaler
@@ -20,8 +25,8 @@ X_filled_knn_1m = KNN(k=30).fit_transform(X)
 print (X_filled_knn_1m)
 X_filled_knn = np.rint(X_filled_knn_1m)
 
-output_file = "lastFM/" # "Flixster/With_Fancy_KNN/" FX
-with open(output_file + "aTrainingSet_users_KNN_fancy_imputation_LFM_k_30.dat", # TestSet_2370_allUsers_KNN_fancy_imputation_FX_k_30
+output_file = "lastFM/" 
+with open(output_file + "TrainingSet_users_KNN_fancy_imputation_LFM_k_30.dat", 
                   'w') as f:
         for index_user, user in enumerate(X_filled_knn):
             for index_movie, rating in enumerate(user):
@@ -30,69 +35,5 @@ with open(output_file + "aTrainingSet_users_KNN_fancy_imputation_LFM_k_30.dat", 
                         str(index_user + 1) + "::" + str(index_movie + 1) + "::" + str(
                             int(np.round(rating))) + "::000000000\n")
 
-
-"""
-class NpEncoder(json.JSONEncoder):
-    def default(self, obj):
-        if isinstance(obj, np.integer):
-            return int(obj)
-        elif isinstance(obj, np.floating):
-            return float(obj)
-        elif isinstance(obj, np.ndarray):
-            return obj.tolist()
-        else:
-            return super(NpEncoder, self).default(obj)
-
-
-#with open(
-        #'ml-1m/user_based_imputation/With_Fancy_KNN/test/NN_TrainingSet_Before_Opposite_Gender_KNN_fancy_imputation_1m_k_30.json') as json_file:
-    #data = json.load(json_file)
-    
-with open(
-        'ml-1m/user_based_imputation/With_Fancy_KNN/test_Confidence_Score_Items_Selection/NN_TrainingSet_Before_Opposite_Gender_KNN_fancy_imputation_1m_k_30.json') as json_file:
-    data = json.load(json_file)
-
-T = MD.load_gender_vector_1m()
-dict_new = {}
-x_axis = []
-y_axis = []
-for index, users in data.items():
-    # print(len(users))
-    # print(users[0])
-    temp = []
-    for x in users:
-        if len(x) > 0:
-            for y in x:
-                temp.append(y)
-    temp = list(np.unique(temp))
-    print(temp)
-    for z in temp:
-        #print(z)
-        if (T [z] == T[int(index)]):
-            #print("Yeees")
-            temp.remove(z)
-            print(temp)
-    x_axis.append(index)
-    y_axis.append(len(temp))
-
-    dict_new[index] = (temp, len(temp))
-#y_pos = np.arange (len(x_axis))
-#plt.bar(y_pos, y_axis)
-#plt.xticks(y_pos, x_axis)
-#plt.show()
-
-
-plt.rcParams.update({'font.size': 28})
-#f, (ax1, ax2, ax3) = plt.subplots(1, 3, sharey=True)
-interval_start, interval_end = 0, 50
-plt.bar(range(interval_start,interval_end), y_axis[0:50])
-#plt.set_title("(A)\nOriginal data")
-plt.xlabel("user ID")
-plt.ylabel("#Number of Neighbors")
-#ax1.set_xticks(range(1,6), [1,2,3,4,5])
-#print("Original Data:", sum(y_axis))
-
-plt.show()
-"""
 
 
