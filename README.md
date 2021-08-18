@@ -20,3 +20,7 @@ Figure below shows the overall process of gender obfuscation and the evaluation 
 * Numpy
 * Pandas
 * scikit-learn
+
+Please note that I added needed files with required modification. The places of modification are commented. 
+
+Feel free to write me at m.slokom@tudelft.nl or manel.slokom@live.fr for questions!
