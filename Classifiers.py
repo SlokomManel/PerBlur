@@ -28,7 +28,7 @@ def log_reg(X, T, multiclass = False, nr_classes=21, show_plot=True):
     from sklearn.linear_model import LogisticRegression
 
     random_state = np.random.RandomState(0)
-    model = LogisticRegression(penalty='l2', random_state=random_state)
+    model = LogisticRegression(penalty='l2', C=1,  random_state=random_state)
     mean_auc = 0
     std_auc = 0
     if multiclass:
