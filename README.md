@@ -21,6 +21,5 @@ Second, as indicated by Evaluation of the Extent to Which Gender Information is 
 * Pandas
 * scikit-learn
 
-Please note that I added needed files with required modification. The places of modification are commented. 
 
-Feel free to write me at m.slokom@tudelft.nl or manel.slokom@live.fr for questions!
+Feel free to contact me at m.slokom@tudelft.nl or manel.slokom@live.fr for questions!
