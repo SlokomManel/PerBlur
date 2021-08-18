@@ -1,3 +1,8 @@
+"""
+This file is from Lenskit. This file needs to be modified before generating recommendation lenskit.
+It contains the added code that is needed to upload the new candidates
+"""
+
 import logging
 import warnings
 import json
@@ -31,6 +36,7 @@ def __standard_cand_fun(candidates):
     Convert candidates from the forms accepted by :py:fun:`recommend` into
     a standard form, a function that takes a user and returns a candidate
     list.
+    This function is modified by us to be able to read our own candidates
     """
     candidates = dict()
     # print ("test")
