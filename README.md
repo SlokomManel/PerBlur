@@ -1,6 +1,8 @@
 ## Towards User-Oriented Privacy for Recommender System Data: A Personalization-based Approach to Gender Obfuscation for User Profiles
 
-This repository releases the Python implementation of "PerBlur" in our paper "*Towards User-Oriented Privacy for Recommender System Data: A Personalization-based Approach to Gender Obfuscation for User Profiles*": [paper](https://www.sciencedirect.com/science/article/pii/S0306457321002065).
+
+
+This repository releases the Python implementation of our paper "*Towards User-Oriented Privacy for Recommender System Data: A Personalization-based Approach to Gender Obfuscation for User Profiles*": [paper](https://www.sciencedirect.com/science/article/pii/S0306457321002065).
 PerBlur stands for Personalized Blurring. 
 PerBlur is an amelioration of:
   * *BlurM(or)e* (published in RMSE@RecSys'2019 Workshop): [paper](https://pure.tudelft.nl/portal/files/68758824/short2.pdf), [code](https://github.com/STrucks/BlurMore),
