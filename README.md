@@ -35,7 +35,8 @@ Second, as indicated by Evaluation of the Extent to Which Gender Information is 
 For recommender system algorithms (BPRMF and ALS) we used lenskit toolkit [lkpy](https://github.com/lenskit/lkpy). Further documentation on how to use Lenskit package can be found [here](https://lkpy.readthedocs.io/en/stable/)
 
 # Citation: 
-@article{SLOKOM2021102722,
+```
+@article{Slokom2021PerBlur,
 title = {Towards user-oriented privacy for recommender system data: A personalization-based approach to gender obfuscation for user profiles},
 author = {Manel Slokom and Alan Hanjalic and Martha Larson},
 journal = {Information Processing & Management},
@@ -47,6 +48,7 @@ issn = {0306-4573},
 doi = {https://doi.org/10.1016/j.ipm.2021.102722},
 url = {https://www.sciencedirect.com/science/article/pii/S0306457321002065},
 }
+```
 
 # Contacts: 
 Feel free to contact me at m.slokom@tudelft.nl or manel.slokom@live.fr for questions!
