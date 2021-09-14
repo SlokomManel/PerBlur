@@ -1,6 +1,6 @@
 ## Towards User-Oriented Privacy for Recommender System Data: A Personalization-based Approach to Gender Obfuscation for User Profiles
 
-This repository releases the Python implementation of "PerBlur" in our paper "*Towards User-Oriented Privacy for Recommender System Data: A Personalization-based Approach to Gender Obfuscation for User Profiles*": [paper](http://google.com).
+This repository releases the Python implementation of "PerBlur" in our paper "*Towards User-Oriented Privacy for Recommender System Data: A Personalization-based Approach to Gender Obfuscation for User Profiles*": [paper](https://www.sciencedirect.com/science/article/pii/S0306457321002065).
 PerBlur stands for Personalized Blurring. 
 PerBlur is an amelioration of:
   * *BlurM(or)e* (published in RMSE@RecSys'2019 Workshop): [paper](https://pure.tudelft.nl/portal/files/68758824/short2.pdf), [code](https://github.com/STrucks/BlurMore),
@@ -15,7 +15,13 @@ Second, as indicated by Evaluation of the Extent to Which Gender Information is 
 
 ![Diagram](Diagram_PerBlur.png)
 
-
+# Key Contributions :
+* We introduce PerBlur, an approach that obfuscates recommender system data.
+* PerBlur uses personalized blurring to block inference of users’ gender.
+* We describe the user-oriented privacy paradigm in which PerBlur is formulated.
+* We propose an evaluation procedure for obfuscated recommender system data.
+* PerBlur is demonstrated to be capable of maintaining recommender system performance.
+* We show the potential of obfuscation to improve fairness and diversity.
 
 
 # Python packages to install:
@@ -26,5 +32,19 @@ Second, as indicated by Evaluation of the Extent to Which Gender Information is 
 
 For recommender system algorithms (BPRMF and ALS) we used lenskit toolkit [lkpy](https://github.com/lenskit/lkpy). Further documentation on how to use Lenskit package can be found [here](https://lkpy.readthedocs.io/en/stable/)
 
+# Citation: 
+@article{SLOKOM2021102722,
+title = {Towards user-oriented privacy for recommender system data: A personalization-based approach to gender obfuscation for user profiles},
+author = {Manel Slokom and Alan Hanjalic and Martha Larson},
+journal = {Information Processing & Management},
+volume = {58},
+number = {6},
+pages = {102722},
+year = {2021},
+issn = {0306-4573},
+doi = {https://doi.org/10.1016/j.ipm.2021.102722},
+url = {https://www.sciencedirect.com/science/article/pii/S0306457321002065},
+}
 
+# Contacts: 
 Feel free to contact me at m.slokom@tudelft.nl or manel.slokom@live.fr for questions!
