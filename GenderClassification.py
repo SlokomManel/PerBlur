@@ -294,7 +294,7 @@ if __name__ == '__main__':
     import timeit
     start = timeit.default_timer()
 
-    one_million(Classifiers.log_reg) # Classifiers.svm_classifier
+#     one_million(Classifiers.log_reg) # Classifiers.svm_classifier
     one_million_obfuscated(Classifiers.log_reg) # svm_classifier
     # LFM_obfuscated(Classifiers.log_reg)  # log_reg svm_classifier
     # lastFM (Classifiers.log_reg)
