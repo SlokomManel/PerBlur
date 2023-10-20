@@ -917,9 +917,8 @@ def Personalized_list_User():
     item_choice = {}
     # lastFM/NN_LFM_TrainingSet_allUsers_KNN_fancy_imputation
     # lastFM/NN_LFM_All_allUsers_KNN_fancy_imputation
-    with open('ml-1m/user_based_imputation/With_Fancy_KNN/test_Confidence_Score_Items_Selection/NN_All_AllUsers_Neighbors_Weight_K_30_item_choice.json') as json_file:
-        data = json.load(
-            json_file)
+    with open('/Users/mslokom/Documents/RecSys_News/goodbook/With_Fancy_KNN/NN_GBD_TrainingSet_allUsers_KNN_fancy_imputation.json') as json_file:
+        data = json.load(json_file)
     len_dict = {}
     for key, value in data.items():
         # print (value)
